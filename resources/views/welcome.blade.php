@@ -11,29 +11,28 @@
   <meta name="author" content="">
   <meta name="keywords" content="">
   <meta name="description" content="">
-</head>
+  
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
-<!-- Swiper -->
-<link rel="stylesheet" href="{{ asset('asset-wel/css/swiper-bundle.min.css') }}" />
 
-<!-- Icomoon -->
-<link rel="stylesheet" href="{{ asset('asset-wel/css/icomoon.css') }}" />
+  <!-- Icomoon -->
+  <link rel="stylesheet" href="{{ asset('asset-wel/css/icomoon.css') }}" />
 
-<!-- Bootstrap -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
-<!-- Vendor CSS -->
-<link rel="stylesheet" href="{{ asset('asset-wel/css/vendor.css') }}" />
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="{{ asset('asset-wel/css/vendor.css') }}" />
 
-<!-- Custom Style -->
-<link rel="stylesheet" href="{{ asset(path: 'asset-wel/css/style.css') }}" />
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="{{ asset('asset-wel/css/style.css') }}" />
 
-<!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
-
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
 
 </head>
 
@@ -189,13 +188,7 @@
     </div>
   </div>
 
-  <section id="top-nav" class="bg-secondary">
-    <div class="text-center px-md-3 py-md-2">
-      <p class="text-white py-1 m-0">Get your first course at 50% Discount. Offer lasts for the first 50 students only.
-        <span><a href="account.html" class="text-white text-decoration-underline">Register now</a></span>
-      </p>
-    </div>
-  </section>
+
 
   <nav class="main-menu d-flex navbar navbar-expand-lg p-2 py-3 p-lg-4 py-lg-4 ">
     <div class="container-fluid">
@@ -760,7 +753,10 @@
             <span class="badge text-white bg-secondary">Sale</span>
           </div>
           <div class="card rounded-4 border-0 shadow-sm p-3 position-relative">
-            <a href="courses-details.html"><img src="images/item4.jpg" class="img-fluid rounded-3" alt="image"></a>
+          <a href="{{ url('courses-details.html') }}">
+    <img src="{{ asset('asset-wel/images/item4.jpg') }}" class="img-fluid rounded-3" alt="image">
+</a>
+
             <div class="card-body p-0">
 
               <div class="d-flex justify-content-between my-3">
@@ -796,7 +792,10 @@
             <span class="badge text-white bg-secondary">New</span>
           </div> -->
           <div class="card rounded-4 border-0 shadow-sm p-3 position-relative">
-            <a href="courses-details.html"><img src="images/item5.jpg" class="img-fluid rounded-3" alt="image"></a>
+          <a href="{{ url('courses-details.html') }}">
+    <img src="{{ asset('asset-wel/images/item5.jpg') }}" class="img-fluid rounded-3" alt="image">
+</a>
+
             <div class="card-body p-0">
 
               <div class="d-flex justify-content-between my-3">
@@ -832,7 +831,10 @@
             <span class="badge text-white bg-secondary">New</span>
           </div>
           <div class="card rounded-4 border-0 shadow-sm p-3 position-relative">
-            <a href="courses-details.html"><img src="images/item6.jpg" class="img-fluid rounded-3" alt="image"></a>
+          <a href="{{ url('courses-details.html') }}">
+    <img src="{{ asset('asset-wel/images/item6.jpg') }}" class="img-fluid rounded-3" alt="image">
+</a>
+
             <div class="card-body p-0">
 
               <div class="d-flex justify-content-between my-3">
@@ -868,7 +870,10 @@
             <span class="badge text-white bg-secondary">New</span>
           </div> -->
           <div class="card rounded-4 border-0 shadow-sm p-3 position-relative">
-            <a href="courses-details.html"><img src="images/item7.jpg" class="img-fluid rounded-3" alt="image"></a>
+          <a href="{{ url('courses-details.html') }}">
+    <img src="{{ asset('asset-wel/images/item7.jpg') }}" class="img-fluid rounded-3" alt="image">
+</a>
+
             <div class="card-body p-0">
 
               <div class="d-flex justify-content-between my-3">
@@ -904,7 +909,10 @@
             <span class="badge text-white bg-secondary">Sale</span>
           </div>
           <div class="card rounded-4 border-0 shadow-sm p-3 position-relative">
-            <a href="courses-details.html"><img src="images/item8.jpg" class="img-fluid rounded-3" alt="image"></a>
+          <a href="{{ url('courses-details.html') }}">
+    <img src="{{ asset('asset-wel/images/item8.jpg') }}" class="img-fluid rounded-3" alt="image">
+</a>
+
             <div class="card-body p-0">
 
               <div class="d-flex justify-content-between my-3">
@@ -961,7 +969,10 @@
                     ut in sit libero, sed. Quis congue pretium in enim gravida quam netus in lorem. Nulla at nibh lorem
                     nunc sapien egestas at cursus. ”</p>
                   <div class="row">
-                    <div class="col-3"> <img src="images/reviwer1.jpg" alt="img" class="img-fluid rounded-circle">
+                  <div class="col-3">
+    <img src="{{ asset('asset-wel/images/reviwer1.jpg') }}" alt="img" class="img-fluid rounded-circle">
+</div>
+
                     </div>
                     <div class="col-9">
                       <h5 class="m-0 mt-2">Recco Gracia</h5>
@@ -976,9 +987,12 @@
                   <p class="text-muted">“Condimentum vel viverra morbi quisque lobortis eu leo. A nulla pulvinar at
                     ut in sit libero, sed. Quis congue pretium in enim gravida quam netus in lorem. Nulla at nibh lorem
                     nunc sapien egestas at cursus. ”</p>
-                  <div class="row">
-                    <div class="col-3"> <img src="images/reviwer2.jpg" alt="img" class="img-fluid rounded-circle">
-                    </div>
+                    <div class="row">
+    <div class="col-3">
+        <img src="{{ asset('asset-wel/images/reviwer2.jpg') }}" alt="img" class="img-fluid rounded-circle">
+    </div>
+</div>
+
                     <div class="col-9">
                       <h5 class="m-0 mt-2">Bicky Yeal</h5>
                       <p class="text-muted">Web Developer</p>
@@ -992,9 +1006,12 @@
                   <p class="text-muted">“Condimentum vel viverra morbi quisque lobortis eu leo. A nulla pulvinar at
                     ut in sit libero, sed. Quis congue pretium in enim gravida quam netus in lorem. Nulla at nibh lorem
                     nunc sapien egestas at cursus. ”</p>
-                  <div class="row">
-                    <div class="col-3"> <img src="images/reviwer3.jpg" alt="img" class="img-fluid rounded-circle">
-                    </div>
+                    <div class="row">
+    <div class="col-3">
+        <img src="{{ asset('asset-wel/images/reviwer3.jpg') }}" alt="img" class="img-fluid rounded-circle">
+    </div>
+</div>
+
                     <div class="col-9">
                       <h5 class="m-0 mt-2">Lilly Will</h5>
                       <p class="text-muted">Web Developer</p>
@@ -1008,9 +1025,12 @@
                   <p class="text-muted">“Condimentum vel viverra morbi quisque lobortis eu leo. A nulla pulvinar at
                     ut in sit libero, sed. Quis congue pretium in enim gravida quam netus in lorem. Nulla at nibh lorem
                     nunc sapien egestas at cursus. ”</p>
-                  <div class="row">
-                    <div class="col-3"> <img src="images/reviwer1.jpg" alt="img" class="img-fluid rounded-circle">
-                    </div>
+                    <div class="row">
+    <div class="col-3">
+        <img src="{{ asset('asset-wel/images/reviwer1.jpg') }}" alt="img" class="img-fluid rounded-circle">
+    </div>
+</div>
+
                     <div class="col-9">
                       <h5 class="m-0 mt-2">Recco Gracia</h5>
                       <p class="text-muted">Web Developer</p>
@@ -1024,9 +1044,12 @@
                   <p class="text-muted">“Condimentum vel viverra morbi quisque lobortis eu leo. A nulla pulvinar at
                     ut in sit libero, sed. Quis congue pretium in enim gravida quam netus in lorem. Nulla at nibh lorem
                     nunc sapien egestas at cursus. ”</p>
-                  <div class="row">
-                    <div class="col-3"> <img src="images/reviwer2.jpg" alt="img" class="img-fluid rounded-circle">
-                    </div>
+                    <div class="row">
+    <div class="col-3">
+        <img src="{{ asset('asset-wel/images/reviwer2.jpg') }}" alt="img" class="img-fluid rounded-circle">
+    </div>
+</div>
+
                     <div class="col-9">
                       <h5 class="m-0 mt-2">Recco Gracia</h5>
                       <p class="text-muted">Web Developer</p>
@@ -1059,7 +1082,8 @@
         <div class="col mb-5">
           <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
             <div class="image-holder zoom-effect rounded-3">
-              <img src="images/teacher1.jpg" class="img-fluid rounded-3" alt="image">
+            <img src="{{ asset('asset-wel/images/teacher1.jpg') }}" class="img-fluid rounded-3" alt="image">
+
               <ul class="social-links list-unstyled position-absolute">
                 <li>
                   <a href="#">
@@ -1102,7 +1126,8 @@
         <div class="col mb-5">
           <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
             <div class="image-holder zoom-effect rounded-3">
-              <img src="images/teacher2.jpg" class="img-fluid rounded-3" alt="image">
+            <img src="{{ asset('asset-wel/images/teacher2.jpg') }}" class="img-fluid rounded-3" alt="image">
+
               <ul class="social-links list-unstyled position-absolute">
                 <li>
                   <a href="#">
@@ -1145,7 +1170,8 @@
         <div class="col mb-5">
           <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
             <div class="image-holder zoom-effect rounded-3">
-              <img src="images/teacher3.jpg" class="img-fluid rounded-3" alt="image">
+            <img src="{{ asset('asset-wel/images/teacher3.jpg') }}" class="img-fluid rounded-3" alt="image">
+
               <ul class="social-links list-unstyled position-absolute">
                 <li>
                   <a href="#">
@@ -1189,7 +1215,7 @@
         <div class="col mb-5">
           <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
             <div class="image-holder zoom-effect rounded-3">
-              <img src="images/teacher4.jpg" class="img-fluid rounded-3" alt="image">
+            <img src="{{ asset('asset-wel/images/teacher4.jpg') }}" class="img-fluid rounded-3" alt="image">
               <ul class="social-links list-unstyled position-absolute">
                 <li>
                   <a href="#">
@@ -1233,7 +1259,7 @@
         <div class="col mb-5">
           <div class="team-member position-relative card rounded-4 border-0 shadow-sm p-3">
             <div class="image-holder zoom-effect rounded-3">
-              <img src="images/teacher5.jpg" class="img-fluid rounded-3" alt="image">
+            <img src="{{ asset('asset-wel/images/teacher5.jpg') }}" class="img-fluid rounded-3" alt="image">
               <ul class="social-links list-unstyled position-absolute">
                 <li>
                   <a href="#">
@@ -1373,7 +1399,7 @@
         <div class="col-sm-6 col-lg-4 my-3">
           <div class="footer-menu">
             <a href="index.html">
-              <img src="images/logo.png" alt="logo" class="img-fluid">
+            <img src="{{ asset('asset-wel/images/logo.png') }}" alt="logo" class="img-fluid">
             </a>
             <div class="social-links mt-4">
               <ul class="d-flex list-unstyled ">
